@@ -4,7 +4,6 @@ class CreatePosts < ActiveRecord::Migration[6.0]
       t.string  :title
       t.text    :memo
       t.string  :category
-      t.string  :day
       t.string  :deadline
       t.references :room, foreign_key: true
       t.references :user, foreign_key: true

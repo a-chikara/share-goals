@@ -7,7 +7,6 @@ class Post < ApplicationRecord
     validates :title
     validates :memo
     validates :category
-    validates :day
     validates :deadline
   end
 

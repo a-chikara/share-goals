@@ -16,7 +16,6 @@ ActiveRecord::Schema.define(version: 2021_04_02_045214) do
     t.string "title"
     t.text "memo"
     t.string "category"
-    t.string "day"
     t.string "deadline"
     t.bigint "room_id"
     t.bigint "user_id"
