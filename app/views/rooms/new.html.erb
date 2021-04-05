@@ -1,23 +1,23 @@
-<div class='chat-room-form'>
-  <h1>新規チャットルーム</h1>
+<div class='post-room-form'>
+  <h1>新規シェアルーム</h1>
   <%=form_with model: @room, local: true do |f|%>
-    <div class='chat-room-form__field'>
-      <div class='chat-room-form__field--left'>
-        <%= f.label :チャットルーム名, class: 'chat-room-form__label'%>
+    <div class='post-room-form__field'>
+      <div class='post-room-form__field--left'>
+        <%= f.label :シェアルーム名, class: 'post-room-form__label'%>
       </div>
-      <div class='chat-room-form__field--right'>
-        <%= f.text_field :name, class: 'chat__room_name chat-room-form__input', placeholder: 'チャットルーム名を入力してください'%>
+      <div class='post-room-form__field--right'>
+        <%= f.text_field :name, class: 'post__room_name post-room-form__input', placeholder: '投稿ルーム名を入力してください'%>
       </div>
     </div>
-    <div class='chat-room-form__field'>
+    <div class='post-room-form__field'>
     </div>
-    <div class='chat-room-form__field'>
-      <div class='chat-room-form__field--left'>
-        <label class='chat-room-form__label' for='chat_room_チャットメンバー'>チャットメンバー</label>
+    <div class='post-room-form__field'>
+      <div class='post-room-form__field--left'>
+        <label class='post-room-form__label' for='post_room_シェアメンバー'>シェアメンバー</label>
       </div>
-      <div class='chat-room-form__field--right'>
+      <div class='post-room-form__field--right'>
         <select name="room[user_ids][]">
-          <option value="">チャットするユーザーを選択してください</option>
+          <option value="">シェアするユーザーを選択してください</option>
           <% User.where.not(id: current_user.id).each do |user| %>
             <option value=<%= user.id %>><%= user.name %></option>
           <% end %>
@@ -25,10 +25,10 @@
         <input name="room[user_ids][]" type="hidden" value=<%= current_user.id %>>
       </div>
     </div>
-    <div class='chat-room-form__field'>
-      <div class='chat-room-form__field--left'></div>
-      <div class='chat-room-form__field--right'>
-        <%= f.submit class: 'chat-room-form__action-btn'%>
+    <div class='post-room-form__field'>
+      <div class='post-room-form__field--left'></div>
+      <div class='post-room-form__field--right'>
+        <%= f.submit class: 'post-room-form__action-btn'%>
       </div>
     </div>
   <% end %>
