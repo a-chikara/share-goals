@@ -9,6 +9,6 @@ class Post < ApplicationRecord
     validates :category
     validates :day
     validates :deadline
-    validates :image
   end
+
 end

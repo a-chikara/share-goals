@@ -1,14 +1,16 @@
 class PostsController < ApplicationController
 
-  def new
-    @post = Post.new
-  end
-
   def index
     @post = Post.new
     @room = Room.find(params[:room_id])
     @posts = @room.posts.includes(:user)
   end
+
+  def new
+    @room = Room.find(params[:room_id])
+    @post = Post.new
+  end
+
 
   def create
     @room = Room.find(params[:room_id])
