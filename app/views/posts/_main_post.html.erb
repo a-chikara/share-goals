@@ -6,7 +6,7 @@
   </div>
   <div class="right-header">
     <div class="header-button">
-      <a href="#">新規投稿</a>
+      <%= link_to "新規投稿", "/rooms/#{@room.id}/posts/new", method: :get %>
       <%= link_to "ルーム削除", room_path(@room), method: :delete %>
     </div>
   </div>
