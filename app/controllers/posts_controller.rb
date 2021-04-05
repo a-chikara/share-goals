@@ -1,4 +1,8 @@
 class PostsController < ApplicationController
+
+  def new
+  end
+
   def index
     @post = Post.new
     @room = Room.find(params[:room_id])
