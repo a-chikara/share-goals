@@ -13,9 +13,9 @@
     </div>
   </div>
   <div class="lower-post">
-    <div class="post-content">
+    <div class="post-title">
       <!-- 投稿したメッセージ内容を記述する -->
-      <%= link_to post.content, "/rooms/#{@room.id}/posts/#{post.id}" , method: :get %>
+      <%= link_to post.title, "/rooms/#{@room.id}/posts/#{post.id}" , method: :get %>
     </div>
   </div>
 </div>

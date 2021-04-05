@@ -13,7 +13,11 @@
 ActiveRecord::Schema.define(version: 2021_04_02_045214) do
 
   create_table "posts", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.string "content"
+    t.string "title"
+    t.text "memo"
+    t.string "category"
+    t.string "day"
+    t.string "deadline"
     t.bigint "room_id"
     t.bigint "user_id"
     t.datetime "created_at", precision: 6, null: false
