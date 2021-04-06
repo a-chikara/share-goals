@@ -1,13 +1,20 @@
-<%= form_with model: [@room, @post] do |form| %>
-  <ul>
-    タイトル
-    <li><%= form.text_field :title %></li>
-    メモ
-    <li><%= form.text_field :memo %></li>
-    カテゴリー
-    <li><%= form.text_field :category %></li>
-    期日
-    <li><%= form.text_field :deadline %></li>
-  </ul>
-  <%= form.submit %>
-<% end %>
+<div class="main">
+  <div class="inner">
+    <div class="form__wrapper">
+      <h2 class="page-heading">新規投稿</h2>
+      <%= form_with model: [@room, @post] do |form| %>
+        <ul>
+          タイトル
+          <li><%= form.text_field :title %></li>
+          メモ
+          <li><%= form.text_field :memo %></li>
+          カテゴリー
+          <li><%= form.text_field :category %></li>
+          期日
+          <li><%= form.text_field :deadline %></li>
+        </ul>
+        <%= form.submit %>
+      <% end %>
+    </div>
+  </div>
+</div>

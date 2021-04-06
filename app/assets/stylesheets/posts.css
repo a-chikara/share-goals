@@ -118,10 +118,14 @@
   margin-bottom: 40px;
 }
 
+/* 新規投稿ページについて */
+.page-heading {
+  color: #253141;
+}
 
 /* フォームについて */
 
-.form {
+/* .form {
   background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
@@ -163,4 +167,4 @@
 
 .hidden {
   display: none;
-}
+} */
