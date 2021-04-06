@@ -4,6 +4,6 @@ Rails.application.routes.draw do
 
   resources :users, only: [:edit, :update]
   resources :rooms, only: [:new, :create, :destroy] do
-    resources :posts, only: [:index, :new, :create, :show]
+    resources :posts, only: [:index, :new, :create, :show, :destroy]
   end
 end
