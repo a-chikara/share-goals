@@ -1,1 +1,17 @@
-<%= @post.content %>
+<ul>
+  <li>
+    <%= @post.title %>
+  </li>
+  <li>
+    <%= @post.memo %>
+  </li>
+  <li>
+    <%= image_tag @post.image.variant(resize: '500x500'), class: 'post_image' if @post.image.attached? %>
+  </li>
+  <li>
+    <%= @post.category %>
+  </li>
+  <li>
+    <%= @post.deadline %>
+  </li>
+</ul>

@@ -1,9 +1,16 @@
 class PostsController < ApplicationController
+
   def index
     @post = Post.new
     @room = Room.find(params[:room_id])
     @posts = @room.posts.includes(:user)
   end
+
+  def new
+    @room = Room.find(params[:room_id])
+    @post = Post.new
+  end
+
 
   def create
     @room = Room.find(params[:room_id])
@@ -24,7 +31,7 @@ class PostsController < ApplicationController
   private
 
   def post_params
-    params.require(:post).permit(:content).merge(user_id: current_user.id)
+    params.require(:post).permit(:title, :memo, :category, :deadline, :image).merge(user_id: current_user.id)
   end
 
 

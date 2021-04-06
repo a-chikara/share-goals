@@ -2,13 +2,13 @@
   display: flex;
 }
 
-.side-bar {
+.side_bar {
   background-color: #253141;
   width: 300px;
   height: 100vh;
 }
 
-.side-bar-header {
+.side_bar_header {
   height: 100px;
   padding: 0 20px;
   background-color: #253141;
@@ -17,13 +17,13 @@
   align-items: center;
 }
 
-.header-name a{
+.header_name a{
   font-size: 16px;
   color: #FAFAFA;
   text-decoration: none;
 }
 
-.create-room a {
+.create_room a {
   font-size: 10px;
   border: 1px solid lightblue;
   padding: 14px;
@@ -42,7 +42,7 @@
   padding: 20px 0 40px;
 }
 
-.room-name a {
+.room_name a {
   text-decoration: none;
   color: white;
 }
@@ -55,24 +55,24 @@
   width: calc(100vw - 300px);
 }
 
-.post-header {
+.post_header {
   height: 100px;
   padding: 0 40px;
   display: flex;
   justify-content: space-around;
 }
 
-.header-title {
+.header_title {
   color: #333;
   font-size: 24px;
   margin-top: 36px;
 }
 
-.header-button {
+.header_button {
   margin-top: 40px;
 }
 
-.header-button a {
+.header_button a {
   text-decoration: none;
   border: 1px solid darkred;
   color: darkred;
@@ -93,35 +93,39 @@
   margin: 10px 0 0 0;
 }
 
-.upper-post{
+.upper_post{
   display: flex;
 }
 
-.post-user {
+.post_user {
   color: #434a54;
   font-size: 16px;
 }
 
-.post-date {
+.post_date {
   color: #999;
   font-size: 12px;
   padding-left: 10px;
 }
 
-.lower-post {
+.lower_post {
   margin-top: 10px;
 }
 
-.post-content {
+.post_title {
   color: #434a54;
   font-size: 14px;
   margin-bottom: 40px;
 }
 
+/* 新規投稿ページについて */
+.page_heading {
+  color: #253141;
+}
 
 /* フォームについて */
 
-.form {
+/* .form {
   background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
@@ -163,4 +167,4 @@
 
 .hidden {
   display: none;
-}
+} */

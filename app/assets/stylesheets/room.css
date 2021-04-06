@@ -23,7 +23,7 @@ li {
   font-size: 13px;
 }
 
-.post-room-form {
+.post_room_form {
   width: 980px;
   margin: 60px auto;
   padding: 40px;
@@ -32,54 +32,54 @@ li {
   border-radius: 5px;
   box-sizing: border-box;
 }
-.post-room-form__errors {
+.post_room_form__errors {
   margin: 30px 0;
   padding: 20px 40px;
   border: 1px solid #ddd;
   border-radius: 2px;
   text-align: center;
 }
-.post-room-form__label {
+.post_room_form__label {
   display: block;
   line-height: 50px;
   font-weight: bold;
   text-align: right;
 }
-.post-room-form__input {
+.post_room_form__input {
   float: left;
   width: 100%;
   line-height: 30px;
   padding: 10px 15px;
   box-sizing: border-box;
 }
-.post-room-form__action-btn {
+.post_room_form__action_btn {
   display: inline-block;
   padding: 12px 20px;
   color: #fff;
   background-color: #38aef0;
   border: 0;
 }
-.post-room-form__field {
+.post_room_form__field {
   margin-top: 30px;
 }
-.post-room-form__field:after {
+.post_room_form__field:after {
   content: "";
   clear: both;
   display: block;
 }
-.post-room-form__field--left {
+.post_room_form__field__left {
   float: left;
   width: 30%;
   padding-right: 20px;
   padding-left: 20px;
   box-sizing: border-box;
 }
-.post-room-form__field--right {
+.post_room_form__field__right {
   float: right;
   width: 70%;
 }
 
-.post-room-user {
+.post_room_user {
   padding: 0 15px;
   line-height: 50px;
   font-size: 14px;
@@ -87,27 +87,27 @@ li {
   width: 500px;
   margin: 0 auto;
 }
-.post-room-user:after {
+.post_room_user:after {
   content: "";
   clear: both;
   display: block;
 }
-.post-room-user__name {
+.post_room_user__name {
   float: left;
 }
-.post-room-user__btn {
+.post_room_user__btn {
   float: right;
   display: inline-block;
   cursor: pointer;
 }
-.post-room-user__btn--add {
+.post_room_user__btn__add {
   color: #38aef0;
 }
-.post-room-user__btn--remove {
+.post_room_user__btn__remove {
   color: #f05050;
 }
 
-.post-room-user__name a {
+.post_room_user__name a {
   text-decoration: none;
   color: #38aef0;
 }
@@ -117,7 +117,7 @@ select {
   height: 50px;
 }
 
-.top-header {
+.top_header {
   background-color: #434a54;
   height: 80px;
   width: 100%;

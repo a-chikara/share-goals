@@ -45,7 +45,6 @@
 | title       | string     | null: false                    |
 | memo        | text       | null: false                    |
 | category_id | integer    | null: false                    |
-| day         | string     | null: false                    |
 | deadline_id | integer    | null: false                    |
 | user        | references | null: false, foreign_key: true |
 | room        | references | null: false, foreign_key: true |
