@@ -1,11 +1,11 @@
-<div class="post-header">
-  <div class="left-header">
-    <div class="header-title">
+<div class="post_header">
+  <div class="left_header">
+    <div class="header_title">
       <%= @room.name %>
     </div>
   </div>
-  <div class="right-header">
-    <div class="header-button">
+  <div class="right_header">
+    <div class="header_button">
       <%= link_to "新規投稿", "/rooms/#{@room.id}/posts/new", method: :get %>
       <%= link_to "ルーム削除", room_path(@room), method: :delete %>
     </div>

@@ -1,19 +1,19 @@
 <div class="post">
-  <div class="upper-post">
-    <div class="post-user">
+  <div class="upper_post">
+    <div class="post_user">
       <!-- 投稿したユーザー名情報を出力する -->
       <%= post.user.name %>
 
     </div>
-    <div class="post-date">
+    <div class="post_date">
       <!-- 投稿した時刻を出力する -->
       <%= l post.created_at %>
 
 
     </div>
   </div>
-  <div class="lower-post">
-    <div class="post-title">
+  <div class="lower_post">
+    <div class="post_title">
       <!-- 投稿したメッセージ内容を記述する -->
       <%= link_to post.title, "/rooms/#{@room.id}/posts/#{post.id}" , method: :get %>
     </div>

@@ -1,42 +1,42 @@
-<div class='account-page' id='account-page'>
-  <div class='account-page__inner clearfix'>
-    <div class='account-page__inner--left account-page__header'>
+<div class='account_page' id='account_page'>
+  <div class='account_page__inner clearfix'>
+    <div class='account_page__inner__left account-page__header'>
       <h2>Create Account</h2>
       <h5>新規アカウントの作成</h5>
     </div>
-    <div class='account-page__inner--right user-form'>
+    <div class='account_page__inner__right user_form'>
       <%= form_with model: resource, as: resource_name, url: registration_path(resource_name), local: true do |f|%>
         <%= devise_error_messages!%>
         <div class='field'>
-          <div class='field-label'>
+          <div class='field_label'>
             <%= f.label :name%>
           </div>
-          <div class='field-input'>
+          <div class='field_input'>
             <%= f.text_field :name, autofocus: true%>
           </div>
         </div>
         <div class='field'>
-          <div class='field-label'>
+          <div class='field_label'>
             <%= f.label :email%>
           </div>
-          <div class='field-input'>
+          <div class='field_input'>
             <%= f.email_field :email%>
           </div>
         </div>
         <div class='field'>
-          <div class='field-label'>
+          <div class='field_label'>
             <%= f.label :password%>
             <i>(英数字6文字以上)</i>
           </div>
-          <div class='field-input'>
+          <div class='field_input'>
             <%= f.password_field :password, autocomplete: "off"%>
           </div>
         </div>
         <div class='field'>
-          <div class='field-label'>
+          <div class='field_label'>
             <%= f.label :password_confirmation%>
           </div>
-          <div class='field-input'>
+          <div class='field_input'>
             <%= f.password_field :password_confirmation, autocomplete: "off"%>
           </div>
         </div>

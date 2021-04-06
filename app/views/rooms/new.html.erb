@@ -1,21 +1,21 @@
-<div class='post-room-form'>
+<div class='post_room_form'>
   <h1>新規シェアルーム</h1>
   <%=form_with model: @room, local: true do |f|%>
-    <div class='post-room-form__field'>
-      <div class='post-room-form__field--left'>
+    <div class='post_room_form_field'>
+      <div class='post_room_form_field__left'>
         <%= f.label :シェアルーム名, class: 'post-room-form__label'%>
       </div>
-      <div class='post-room-form__field--right'>
-        <%= f.text_field :name, class: 'post__room_name post-room-form__input', placeholder: '投稿ルーム名を入力してください'%>
+      <div class='post_room_form__field__right'>
+        <%= f.text_field :name, class: 'post__room_name post_room_form__input', placeholder: '投稿ルーム名を入力してください'%>
       </div>
     </div>
-    <div class='post-room-form__field'>
+    <div class='post_room_form__field'>
     </div>
-    <div class='post-room-form__field'>
-      <div class='post-room-form__field--left'>
-        <label class='post-room-form__label' for='post_room_シェアメンバー'>シェアメンバー</label>
+    <div class='post_room_form__field'>
+      <div class='post_room_form__field__left'>
+        <label class='post_room_form__label' for='post_room_シェアメンバー'>シェアメンバー</label>
       </div>
-      <div class='post-room-form__field--right'>
+      <div class='post_room_form__field__right'>
         <select name="room[user_ids][]">
           <option value="">シェアするユーザーを選択してください</option>
           <% User.where.not(id: current_user.id).each do |user| %>
@@ -25,10 +25,10 @@
         <input name="room[user_ids][]" type="hidden" value=<%= current_user.id %>>
       </div>
     </div>
-    <div class='post-room-form__field'>
-      <div class='post-room-form__field--left'></div>
-      <div class='post-room-form__field--right'>
-        <%= f.submit class: 'post-room-form__action-btn'%>
+    <div class='post_room_form__field'>
+      <div class='post_room_form__field__left'></div>
+      <div class='post_room_form__field__right'>
+        <%= f.submit class: 'post_room_form__action-btn'%>
       </div>
     </div>
   <% end %>
