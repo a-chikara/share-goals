@@ -1,19 +1,30 @@
 <div class="main">
   <div class="inner">
     <div class="form__wrapper">
-      <h2 class="page-heading">新規投稿</h2>
-      <%= form_with model: [@room, @post] do |form| %>
-        <ul>
-          タイトル
-          <li><%= form.text_field :title %></li>
-          メモ
-          <li><%= form.text_field :memo %></li>
-          カテゴリー
-          <li><%= form.text_field :category %></li>
-          期日
-          <li><%= form.text_field :deadline %></li>
-        </ul>
-        <%= form.submit %>
+      <h2 class="page_heading">新規投稿</h2>
+      <%= form_with model: [@room, @post] do |f| %>
+        <div class="field">
+          <%= f.label :title, "タイトル" %><br />
+          <%= f.text_field :title, id:"share_goals_title" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :image, "画像" %><br />
+          <%= f.file_field :image, id:"share_goals_image" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :title, "カテゴリー" %><br />
+          <%= f.text_field :title, id:"share_goals_title" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :title, "期日" %><br />
+          <%= f.text_field :title, id:"share_goals_title" %>
+        </div>
+        <div class="actions">
+          <%= f.submit "投稿する", class: :form__btn  %>
+        </div>
       <% end %>
     </div>
   </div>

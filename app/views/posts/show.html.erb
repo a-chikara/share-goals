@@ -1,1 +1,2 @@
 <%= @post.title %>
+<%= image_tag @post.image.variant(resize: '500x500'), class: 'share_goals_image', if post.image.attached? %>
