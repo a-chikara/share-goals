@@ -1,0 +1,29 @@
+      <%= form_with model: [@room, @post] do |f| %>
+        <div class="field">
+          <%= f.label :title, "タイトル" %><br />
+          <%= f.text_field :title, id:"share_goals_title" %>
+        </div>
+        
+        <div>
+          <%= f.label :memo, "メモ" %><br />
+          <%= f.text_field :memo, id:"share_goals_memo" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :image, "画像" %><br />
+          <%= f.file_field :image, id:"share_goals_image" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :category, "カテゴリー" %><br />
+          <%= f.text_field :category, id:"share_goals_category" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :deadline, "期日" %><br />
+          <%= f.text_field :deadline, id:"share_goals_deadline" %>
+        </div>
+        <div class="actions">
+          <%= f.submit "投稿する", class: :form__btn  %>
+        </div>
+      <% end %>
