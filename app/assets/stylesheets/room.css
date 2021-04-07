@@ -79,6 +79,10 @@ li {
   width: 70%;
 }
 
+.back_btn {
+  margin-left: 30px;
+}
+
 .post_room_user {
   padding: 0 15px;
   line-height: 50px;
