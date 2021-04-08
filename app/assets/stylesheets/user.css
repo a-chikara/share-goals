@@ -2,8 +2,8 @@
   width: 980px;
   margin: 60px auto;
   padding: 60px;
-  background-color: #fff;
-  border: 1px solid #ddd;
+  /* background-color: #fff; */
+  background-color: rgb(226, 250, 247);
   border-radius: 5px;
 }
 .account_page .account_page__inner .account_page__inner--left, .account_page .account_page__inner .account_page__inner__right {
@@ -69,8 +69,8 @@
 .account_page input[type=submit] {
   float: left;
   margin-top: 20px;
-  color: #fff;
-  background-color: #38aef0;
+  color: white;
+  background-color: gray;
 }
 .account_page .field_label .field_with_errors {
   display: inline-block;

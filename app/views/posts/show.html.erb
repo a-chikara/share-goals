@@ -1,23 +1,32 @@
-<ul>
-  <li>
-    <%= @post.title %>
-  </li>
-  <li>
-    <%= @post.memo %>
-  </li>
-  <li>
-    <%= image_tag @post.image.variant(resize: '500x500'), class: 'post_image' if @post.image.attached? %>
-  </li>
-  <li>
-    <%= @post.category %>
-  </li>
-  <li>
-    <%= @post.deadline %>
-  </li>
-</ul>
+<div class="main">
+  <div class="inner">
+    <div class="form__wrapper">
+      <h2 class="page_heading"><%= @post.title %></h2>
+      <%= image_tag @post.image.variant(resize: '500x500'), class: 'post_image' if @post.image.attached? %>
 
-<ul>
-  <li>
-    <%= link_to '削除', "/rooms/room_id/posts/#{@post.id}" , method: :delete %>
-  </li>
-</ul>
+      <div class="post_memo">
+        <%= @post.memo %>
+      </div>
+
+      <div class="post_category">
+        <%= @post.category %>
+      </div>
+
+      <div class="post_deadline">
+        <%= @post.deadline %>
+      </div>
+
+    </div>
+    <%= link_to '削除', "/rooms/room_id/posts/#{@post.id}" , method: :delete, class: 'delete_btn' %>
+    <%= link_to "チャットページに戻る", :back, class: 'root_btn'%>
+  </div>
+</div>
+
+
+
+
+
+    <%# <%= link_to '削除', "/rooms/room_id/posts/#{@post.id}" , method: :delete, class: 'delete_btn' %>
+    <%# <%= link_to "チャットページに戻る", :back, class: 'root_btn'%>
+  <%# </div> %>
+<%# </div> %>
