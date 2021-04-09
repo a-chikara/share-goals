@@ -40,5 +40,4 @@ class PostsController < ApplicationController
     params.require(:post).permit(:title, :memo, :category, :deadline, :image).merge(user_id: current_user.id)
   end
 
-
 end
