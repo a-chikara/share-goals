@@ -32,7 +32,7 @@ share-goals
 
 サインアップページ
 
-fb90c984d11c69ccba71d28309062dec
+![d8c9c0c81c8ad7eaf15cfd1760dd5b61](https://user-images.githubusercontent.com/78467755/114298045-4b880a00-9aef-11eb-8bd7-72841bb9dcf7.jpeg)
 
 サインインページ
 
