@@ -32,11 +32,11 @@ share-goals
 
 サインアップページ
 
-https://user-images.githubusercontent.com/78467755/114298092-973ab380-9aef-11eb-8899-2b4a1fcc5b8f.mp4
+![Animated GIF-downsized (2)](https://user-images.githubusercontent.com/78467755/114298896-8724d300-9af3-11eb-9dbf-036305b2f624.gif)
 
 サインインページ
 
-https://user-images.githubusercontent.com/78467755/114298105-ade10a80-9aef-11eb-8ba2-6eb78145a78f.mp4
+![Animated GIF-downsized (1)](https://user-images.githubusercontent.com/78467755/114298863-56dd3480-9af3-11eb-952c-8d9bf97840d9.gif)
 
 トップページ
 
@@ -64,7 +64,7 @@ https://user-images.githubusercontent.com/78467755/114298105-ade10a80-9aef-11eb-
 
 新規投稿
 
-https://user-images.githubusercontent.com/78467755/114298170-06b0a300-9af0-11eb-8054-9e85c9ced077.mp4
+![Animated GIF-downsized](https://user-images.githubusercontent.com/78467755/114298791-0239b980-9af3-11eb-8b00-6bc57b855258.gif)
 
 投稿詳細
 
