@@ -32,37 +32,43 @@ share-goals
 
 サインアップページ
 
-https://gyazo.com/fb90c984d11c69ccba71d28309062dec
+fb90c984d11c69ccba71d28309062dec
 
 サインインページ
 
-https://gyazo.com/d65dce10b67350c0d5f0764a06938995
+d65dce10b67350c0d5f0764a06938995
 
 トップページ
-https://gyazo.com/97f41131ead6cd35acc655db07e2ad65
+
+97f41131ead6cd35acc655db07e2ad65
 
 ・ヘッダーのユーザー名をクリックするとユーザー情報編集ページへ遷移
 ・「ルームを作成する」をクリックで新規ルーム作成ページへ遷移
 ・「テスト用」が記述されているところには作成したルーム名が表示され、クリックするとルームへ遷移
 
 ユーザー情報編集ページ
-https://gyazo.com/e0d0ad40e103305cd15a24799c53addb
+
+e0d0ad40e103305cd15a24799c53addb
 
 ルーム作成
-https://gyazo.com/74dc89e2fb4ae92370b38ba43418ebe5
+
+74dc89e2fb4ae92370b38ba43418ebe5
 
 投稿一覧
-https://gyazo.com/029c1fb7e4a2b0fa1276b66868469276
+
+029c1fb7e4a2b0fa1276b66868469276
 
 ・ヘッダーのルーム削除ボタンをクリックでルーム削除
 ・投稿をクリックで投稿詳細ページへ遷移
 
 
 新規投稿
-https://gyazo.com/424eeae68bd4c376d0afc117f1ca048d
+
+424eeae68bd4c376d0afc117f1ca048d
 
 投稿詳細
-https://gyazo.com/d8c9c0c81c8ad7eaf15cfd1760dd5b61
+
+d8c9c0c81c8ad7eaf15cfd1760dd5b61
 
 ・削除ボタンをクリックで投稿削除
 
