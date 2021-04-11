@@ -32,15 +32,15 @@ share-goals
 
 サインアップページ
 
-![d8c9c0c81c8ad7eaf15cfd1760dd5b61](https://user-images.githubusercontent.com/78467755/114298045-4b880a00-9aef-11eb-8bd7-72841bb9dcf7.jpeg)
+https://user-images.githubusercontent.com/78467755/114298092-973ab380-9aef-11eb-8899-2b4a1fcc5b8f.mp4
 
 サインインページ
 
-d65dce10b67350c0d5f0764a06938995
+https://user-images.githubusercontent.com/78467755/114298105-ade10a80-9aef-11eb-8ba2-6eb78145a78f.mp4
 
 トップページ
 
-97f41131ead6cd35acc655db07e2ad65
+<img width="1436" alt="97f41131ead6cd35acc655db07e2ad65" src="https://user-images.githubusercontent.com/78467755/114298114-bdf8ea00-9aef-11eb-8c04-148bf95650cc.png">
 
 ・ヘッダーのユーザー名をクリックするとユーザー情報編集ページへ遷移
 ・「ルームを作成する」をクリックで新規ルーム作成ページへ遷移
@@ -48,15 +48,15 @@ d65dce10b67350c0d5f0764a06938995
 
 ユーザー情報編集ページ
 
-e0d0ad40e103305cd15a24799c53addb
+<img width="1438" alt="e0d0ad40e103305cd15a24799c53addb" src="https://user-images.githubusercontent.com/78467755/114298127-cfda8d00-9aef-11eb-8eeb-8789ea52df97.png">
 
 ルーム作成
 
-74dc89e2fb4ae92370b38ba43418ebe5
+<img width="1428" alt="74dc89e2fb4ae92370b38ba43418ebe5" src="https://user-images.githubusercontent.com/78467755/114298133-dcf77c00-9aef-11eb-87b7-699b86fef87e.png">
 
 投稿一覧
 
-029c1fb7e4a2b0fa1276b66868469276
+<img width="1437" alt="029c1fb7e4a2b0fa1276b66868469276" src="https://user-images.githubusercontent.com/78467755/114298151-f5679680-9aef-11eb-9929-8629ab952371.png">
 
 ・ヘッダーのルーム削除ボタンをクリックでルーム削除
 ・投稿をクリックで投稿詳細ページへ遷移
@@ -64,11 +64,11 @@ e0d0ad40e103305cd15a24799c53addb
 
 新規投稿
 
-424eeae68bd4c376d0afc117f1ca048d
+https://user-images.githubusercontent.com/78467755/114298170-06b0a300-9af0-11eb-8054-9e85c9ced077.mp4
 
 投稿詳細
 
-d8c9c0c81c8ad7eaf15cfd1760dd5b61
+![d8c9c0c81c8ad7eaf15cfd1760dd5b61](https://user-images.githubusercontent.com/78467755/114298045-4b880a00-9aef-11eb-8bd7-72841bb9dcf7.jpeg)
 
 ・削除ボタンをクリックで投稿削除
 
