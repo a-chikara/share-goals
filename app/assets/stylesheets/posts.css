@@ -1,5 +1,6 @@
 .wrapper {
   display: flex;
+  background-color: rgb(226, 250, 247);
 }
 
 .side_bar {
