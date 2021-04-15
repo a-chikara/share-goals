@@ -149,7 +149,7 @@ label {
 
 .image_field {
   font-size: 25px;
-  margin: 10px 0 10px 287px;
+  margin: 10px 0 10px 100px;
 }
 
 
@@ -179,6 +179,14 @@ label {
 
 
 /* 投稿詳細ページについて */
+
+.form__wrapper {
+  background-color: rgb(226, 250, 247);
+}
+
+.inner {
+  background-color: rgb(226, 250, 247);
+}
 
 .post_memo {
   font-size: 20px;
