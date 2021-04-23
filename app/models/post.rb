@@ -12,4 +12,9 @@ class Post < ApplicationRecord
     validates :deadline
   end
 
+  extend ActiveHash::Associations::ActiveRecordExtensions
+  belongs_to :category
+  belongs_to :deadline
+  
 end
+
