@@ -17,13 +17,13 @@
         </div>
 
         <div class="field">
-          <%= f.label :category, "カテゴリー" %><br />
-          <%= f.text_field :category, id:"share_goals_category" %>
+          <%= f.label :category_id, "カテゴリー" %><br />
+          <%= f.collection_select(:category_id, Category.all, :id, :name, {}, {class:"category_select", id:"share_goals_category"}) %>
         </div>
 
         <div class="field">
-          <%= f.label :deadline, "期日" %><br />
-          <%= f.text_field :deadline, id:"share_goals_deadline" %>
+          <%= f.label :deadline_id, "期日" %><br />
+          <%= f.collection_select(:deadline_id, Deadline.all, :id, :name, {}, {class:"deadline_select", id:"share_goals_deadline"}) %>
         </div>
         <div class="actions">
           <%= f.submit "投稿する", class: :form__btn  %>
