@@ -148,6 +148,16 @@ label {
   color: black;
 }
 
+.title_field {
+  width: 280px;
+  height: 70px;
+}
+
+.memo_field {
+  width: 450px;
+  height: 100px;
+}
+
 .image_field {
   font-size: 25px;
   margin: 10px 0 10px 100px;

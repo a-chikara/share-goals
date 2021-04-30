@@ -1,12 +1,12 @@
       <%= form_with model: [@room, @post] do |f| %>
         <div class="field">
           <%= f.label :title, "タイトル" %><br />
-          <%= f.text_field :title, id:"share_goals_title" %>
+          <%= f.text_field :title, class:"title_field", id:"share_goals_title" %>
         </div>
         
         <div class="field">
           <%= f.label :memo, "メモ" %><br />
-          <%= f.text_area :memo, id:"share_goals_memo" %>
+          <%= f.text_area :memo, class:"memo_field", id:"share_goals_memo" %>
         </div>
 
         <div class="field">
