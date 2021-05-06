@@ -163,8 +163,9 @@ label {
 } */
 
 .image_file_field {
-  width: 450px;
+  width: 500px;
   margin: 10px 0 10px 100px;
+  font-size: 30px;
 
 }
 
