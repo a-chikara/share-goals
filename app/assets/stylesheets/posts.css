@@ -158,12 +158,14 @@ label {
   height: 100px;
 }
 
-.image_field {
+/* .image_field {
   margin: 10px 0 10px 100px;
-}
+} */
 
 .image_file_field {
   width: 450px;
+  margin: 10px 0 10px 100px;
+
 }
 
 .category_select {
