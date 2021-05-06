@@ -162,6 +162,10 @@ label {
   margin: 10px 0 10px 100px;
 }
 
+.image_file_field {
+  width: 450px;
+}
+
 .category_select {
   width: 280px;
 }
